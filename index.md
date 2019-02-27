@@ -6,13 +6,14 @@ description: Tutoriel pour les débutants sur google big table
 
 ### Introduction :
 BigTable est un système de gestion de base de données compressées, haute performance, propriétaire, développé et exploité par [Google](https://www.google.com).
+
 C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.
-Chez Google, BigTable est stockée sur le système de fichiers distribué GoogleFS.
-Google ne distribue pas sa base de données mais propose une utilisation publique de BigTable via sa plateforme d'application Google App Engine.
 
-### Markdown
+Chez Google, BigTable est stockée sur le système de fichiers distribué GoogleFS, il ne distribue pas sa base de données mais propose une utilisation publique de BigTable via sa plateforme d'application Google App Engine.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Le Public
+
+Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent apprendre à utiliser la BigTable en étapes simples et faciles. Ce tutoriel vous donnera une bonne compréhension générale des concepts de Google BigTable.
 
 ```markdown
 Syntax highlighted code block
