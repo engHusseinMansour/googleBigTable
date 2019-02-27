@@ -11,11 +11,21 @@ BigTable est un système de gestion de base de données compressées, haute perf
 
 Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent apprendre à utiliser la BigTable en étapes simples et faciles, il vous donnera une bonne compréhension générale des concepts de Google BigTable.
 
+## Avant de commencer :
+
+1. Sélectionnez ou créez un projet GCP :
+    1. Passez au page [Gérer les ressources](https://console.cloud.google.com/cloud-resource-manager?hl=ar&_ga=2.213750932.-1032159468.1550254809&_gac=1.217784738.1551279192.EAIaIQobChMI3oOPnJXc4AIV7ZXtCh0ACgRYEAAYASAAEgJNWPD_BwE)
+    2. choisir l'organisation
+    3. Créer un nouveau projet
+
+![Video](https://youtu.be/aJSMdPDHg7w)
+
+
 ## Démarrage rapide :
 
 Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches administratives basiques, et lire et écrire des données dans une table, On a deux options :
-1. **Commande cbt :** est une interface de ligne de commande permettant d'effectuer différentes opérations sur Cloud Bigtable. Il est écrit en Go à l'aide de la bibliothèque cliente Go pour Cloud Bigtable, pour plus d'informations [commande cbt](https://cloud.google.com/bigtable/docs/cbt-overview?hl=fr)
-2. **Système HBase :** est un système de gestion de base de données non-relationnelles distribué, écrit en Java, disposant d'un stockage structuré pour les grandes tables, pour plus d'informations [Système HBase](https://hbase.apache.org/).
+1. **Commande cbt :** est une interface de ligne de commande permettant d'effectuer différentes opérations sur Cloud Bigtable. Il est écrit en Go à l'aide de la bibliothèque cliente Go pour Cloud Bigtable, pour plus des informations [commande cbt](https://cloud.google.com/bigtable/docs/cbt-overview?hl=fr)
+2. **Système HBase :** est un système de gestion de base de données non-relationnelles distribué, écrit en Java, disposant d'un stockage structuré pour les grandes tables, pour plus des informations [Système HBase](https://hbase.apache.org/).
 
 
 ```markdown
