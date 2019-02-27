@@ -168,12 +168,15 @@ admin.deleteTable(table.getName());
 
 
 
-### FULL CODE :
+### Code complet :
 
-[FULL CODE EN GITHUB](https://github.com/engHusseinMansour/bigtable-java/blob/master/src/main/java/com/example/cloud/bigtable/helloworld/HelloWorld.java)
+[JAVA CODE](https://github.com/engHusseinMansour/bigtable-java/blob/master/src/main/java/com/example/cloud/bigtable/helloworld/HelloWorld.java)
 
 
-[github-repo]: https://github.com/engHusseinMansour/bigtable-java
-[github-zip]: https://github.com/engHusseinMansour/bigtable-java/archive/master.zip
+### Code Github :
+
+Repository : [ bigtable-java ](https://github.com/engHusseinMansour/bigtable-java)
+
+Télécharger : [ fichier .zip](https://github.com/engHusseinMansour/bigtable-java/archive/master.zip)
 
 
