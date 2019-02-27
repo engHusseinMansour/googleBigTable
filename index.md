@@ -16,10 +16,9 @@ Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent a
 1. Sélectionnez ou créez un projet GCP :
     1. Passez au page [Gérer les ressources](https://console.cloud.google.com/cloud-resource-manager?hl=ar&_ga=2.213750932.-1032159468.1550254809&_gac=1.217784738.1551279192.EAIaIQobChMI3oOPnJXc4AIV7ZXtCh0ACgRYEAAYASAAEgJNWPD_BwE)
     2. choisir l'organisation
-    3. Créer un nouveau projet
+    3. Créer un nouveau projet, ici je choisis  *"myfirstTest"*
 
-![Video](https://youtu.be/aJSMdPDHg7w)
-
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
 
 ## Démarrage rapide :
 
