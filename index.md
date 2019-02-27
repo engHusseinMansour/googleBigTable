@@ -13,20 +13,27 @@ Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent a
 
 ## Avant de commencer :
 
-1. Sélectionnez ou créez un projet GCP :
-    1. Passez au page [Gérer les ressources](https://console.cloud.google.com/cloud-resource-manager?hl=ar&_ga=2.213750932.-1032159468.1550254809&_gac=1.217784738.1551279192.EAIaIQobChMI3oOPnJXc4AIV7ZXtCh0ACgRYEAAYASAAEgJNWPD_BwE), choisissez l'organisation puis créer un nouveau projet, ici je choisis  *"myfirstTest"* (Voir le video)
-    4. Activer les API Cloud Bigtable et Cloud Bigtable Admin (Voir le video)
+1. Sélectionnez ou créez un projet GCP : (Voir les videos)
+    1. Passer au page [Gérer les ressources](https://console.cloud.google.com/cloud-resource-manager?hl=ar&_ga=2.213750932.-1032159468.1550254809&_gac=1.217784738.1551279192.EAIaIQobChMI3oOPnJXc4AIV7ZXtCh0ACgRYEAAYASAAEgJNWPD_BwE), choisir l'organisation puis créer un nouveau projet, par exemple  *"myfirstTest"*.
+    2. Activer les API Cloud Bigtable et Cloud Bigtable Admin.
+    3. Créer un identifiant pour accéder à vos API activées.
 
-Créer un nouveau projet:
+**Créer un nouveau projet:**
 
 [![Créer un nouveau projet](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
 
-Activer les API :
+**Activer les API :**
 
 [![Créer un nouveau projet](http://img.youtube.com/vi/TyGEHFj6h9c/0.jpg)](http://www.youtube.com/watch?v=TyGEHFj6h9c)
 
 Tous les APIs :
+
 ![APIs](https://lh3.googleusercontent.com/tP4PVh2R14ObkFZ9Md_m3p4Bp0vqBn_yONq6lqVckCaCMxbq4gh97sL8EODUs_wNj067BxZcucQdn-IJ6pB09LB3cD4LcX6NgSAzSy9Zcr0GwXqOxtm3LoX94C4HWmfgwmOs65of=w1080-h477-no)
+
+**Créer un identifiant :**
+
+[![Créer un identifiant](http://img.youtube.com/vi/gUHj7UXUjjw/0.jpg)](http://www.youtube.com/watch?v=gUHj7UXUjjw)
+
 
 ## Démarrage rapide :
 
