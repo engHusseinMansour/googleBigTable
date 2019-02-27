@@ -2,14 +2,21 @@
 titre: Google Cloud Big table et API JAVA 
 description: Tutoriel pour les débutants sur google big table
 ---
-## Tutoriel de Google Cloud Big table
+# Tutoriel de Google Cloud Big table
 
-### Introduction :
+## Introduction :
 BigTable est un système de gestion de base de données compressées, haute performance, propriétaire, développé et exploité par [Google](https://www.google.com). C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.
 
-### Le Public
+## Le Public :
 
-Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent apprendre à utiliser la BigTable en étapes simples et faciles. Ce tutoriel vous donnera une bonne compréhension générale des concepts de Google BigTable.
+Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent apprendre à utiliser la BigTable en étapes simples et faciles, il vous donnera une bonne compréhension générale des concepts de Google BigTable.
+
+## Démarrage rapide :
+
+Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches administratives basiques, et lire et écrire des données dans une table, On a deux options :
+1. **Commande cbt :** est une interface de ligne de commande permettant d'effectuer différentes opérations sur Cloud Bigtable. Il est écrit en Go à l'aide de la bibliothèque cliente Go pour Cloud Bigtable, pour plus d'informations [commande cbt](https://cloud.google.com/bigtable/docs/cbt-overview?hl=fr)
+2. **Système HBase :** est un système de gestion de base de données non-relationnelles distribué, écrit en Java, disposant d'un stockage structuré pour les grandes tables, pour plus d'informations [Système HBase](https://hbase.apache.org/).
+
 
 ```markdown
 Syntax highlighted code block
