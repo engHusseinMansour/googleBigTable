@@ -16,10 +16,13 @@ Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent a
 1. Sélectionnez ou créez un projet GCP :
     1. Passez au page [Gérer les ressources](https://console.cloud.google.com/cloud-resource-manager?hl=ar&_ga=2.213750932.-1032159468.1550254809&_gac=1.217784738.1551279192.EAIaIQobChMI3oOPnJXc4AIV7ZXtCh0ACgRYEAAYASAAEgJNWPD_BwE)
     2. choisir l'organisation
-    3. Créer un nouveau projet, ici je choisis  *"myfirstTest"*
+    3. Créer un nouveau projet, ici je choisis  *"myfirstTest"* (Voir le video)
+    4. Activer les API Cloud Bigtable et Cloud Bigtable Admin (Voir le video)
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
-
+Créer un nouveau projet:
+[![Créer un nouveau projet](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
+Activer les API :
+[![Créer un nouveau projet](http://img.youtube.com/vi/TyGEHFj6h9c/0.jpg)](http://www.youtube.com/watch?v=TyGEHFj6h9c)
 ## Démarrage rapide :
 
 Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches administratives basiques, et lire et écrire des données dans une table, On a deux options :
