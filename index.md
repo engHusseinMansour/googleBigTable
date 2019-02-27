@@ -36,8 +36,11 @@ Tous les APIs :
 
 ## Activer la facturation pour votre projet :
 
+**Etape 1 :**
+
 ![Etape 1](https://lh3.googleusercontent.com/CuClptU3uOP7m9w34nHHt4zb8Hk3C11CBosMBZfiQerX4miVasLV31U2r34qLyDfkEmp_y_CU2GX8KYQ5Yv2K9qV-7CWohAVIg1IzL14g8LWp6YLuJ4u60jM-d4vFsN15DVuHB83IXhAU8huqs6qa4dK5rdpGgNYrhfao-b__AsHjgrpgJEe9C_m85bBOiAPTJsKCJEFebPD8T2ZVRt49LjFFtx8Z-WxD8iCNO6XmAsVtcq9n0jl5UKlRUh5UY8K2jdlNDzrgmUf9ASDBEzIiwVSBWWUngGjOwKZcLcI8DgsdbzpiYfPJu7iKvT9EQ83s6aJchIt1UyOyqsevSYrRhtieD4cnG-xN1v7J7uGkQEelJQroBlWfZG2osI3OLMZllU6YlFEipqcU8Ge7vnwwRv65De3y2O0YbUU8ZmEP85eHg8W7JkXsu8cUzhIrtibyRqH68fJgnhkP0XsOFa1qj8I0caL-Fvv5fIf-uIux8vzBszWX4Kpx4jYeMMwfgOfGqUMnIHq5WTDslb7kr_VtDnG2g8NHhtGJOGMr4P4lEtfXJZ_6pDV_G-9eBXVJfBctfd6TALx-S9mJUy8ErFCoA2aiwRuSAQkdtKa0w-CYYa2vi27i9SERgrVlOjXJTpFvmdv-TzF52yug54WM3-CH8MjnxA87oJkLjzUL_kUinFjCZE995nb9SyAhF8KbDZFbS0E0LSwcGRe6WWkcC1rUDo=w1440-h818-no)
 
+**Etape 2 :** 
 ![Etape 2](https://lh3.googleusercontent.com/2Z8J_WlWnrXvmzmiXQcydmIY4Y5dgfZieNgJ3RdTdPlJUvrcnG1_LStmAaEZ71NkuE5LA6Nt5hZwyxHOcsZk18Y8vOhxNzSQUXkEM4xlf-Sc7BSOVr1c0bPJkR3DIFrDXYori1civQb38OFJnonQYW-LR7u1s_XaVoqWPkkdkkjuV5YyTigUfqcevXAse9roVDmNJ7iQi28GqHv0IJUOs2GhHf5kYoY6fo6GNrW5YwXErHsuHYowQOCQ6XB4wzZdOjdlyEN8s20DtDPA0dg4M0MI-4CZGVFK4UgfXJuPjX0yTQ79AyXs5FLQ3QUVsIt1FMmC8ptpuIzZbDn-FS_CaZsqJC3HzKNlnHc84xP044NKHsUzVrGJFRCCaSWfeXpQEaFwqXk0ba4pf1vNSHHG9Lp143OLSVuOpKzh3AOsC4MgjWfbDK1QvgZjGQjGmxtqgck9YHvQlqfPaC8ANnge5nkpecGrDeB6Ik-W0TmkRIyx-X4D-6nO4WdYL_mfHZCcgDRxbOXcMNSnMQ8c_QVQG2PRmqx7LwskWjeXOtVJAEnd-eDDLwEXfvbWjGW3vT2eLBGZRQN-Pgs4n28w4vhmozMAr6V62l9-jDVJWX0jLZZQqtFLdOEe4mmTwN_gNPjoMvcvvPT2xpC_igNFT1rJN50SJTww1J_pe-FdYzSAdHNZlLHg7K8y-xO8v0VVUcF0ahWZPXtu6IpCCvAr7u19zVc=w1440-h820-no)
 
 ## Créer une instance :
@@ -55,66 +58,53 @@ Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches admini
 ## Exemple de JAVA API :
 Nous allons utiliser HBase pour appliquer un exemple **API HBase pour Java "Hello World" Application**
 
+
+### Mise en place de l'authentification :
+
+Fournissez des informations d'authentification au code de votre application en définissant la variable d'environnement *GOOGLE_APPLICATION_CREDENTIALS*.
+Remplacez *[PATH]* par le chemin du fichier JSON contenant la clé de votre compte de service.
+Cette variable ne s'applique qu'à votre session shell actuelle.
+Si vous ouvrez une nouvelle session, définissez-la à nouveau.
+
+-  Windows :
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+$env:GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll ISSAE Cnam Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ISSAE/ISSAE.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-Exemple of _config.yml
-
-```yml
-remote_theme: ISSAE/architect
-
-name: Programmation Avancée 
-
-author: Pascal Fares
-
-author_email: pascal.fares@isae.edu.lb
-
-title: Programmation Avancée et Patron de conception en Java
-
-google_analytics: UA-29708002-2
-
-repository: ISSAE/NFP121
-
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+- Linux ou MAC :
+```markdown
+export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
 ```
 
+### Installation et importation de la bibliothèque client
 
-### For reviewing the theme locally
+```markdown
+import com.google.cloud.bigtable.hbase.BigtableConfiguration;
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
+import org.apache.hadoop.hbase.HColumnDescriptor;
+import org.apache.hadoop.hbase.HTableDescriptor;
+import org.apache.hadoop.hbase.TableName;
+import org.apache.hadoop.hbase.client.Admin;
+import org.apache.hadoop.hbase.client.Connection;
+import org.apache.hadoop.hbase.client.Get;
+import org.apache.hadoop.hbase.client.Put;
+import org.apache.hadoop.hbase.client.Result;
+import org.apache.hadoop.hbase.client.ResultScanner;
+import org.apache.hadoop.hbase.client.Scan;
+import org.apache.hadoop.hbase.client.Table;
+import org.apache.hadoop.hbase.util.Bytes;
 
-0. [Get jekyll](https://jekyllrb.com/docs/installation/windows/)
+import java.io.IOException;
+```
 
-1. Clone down the theme's repository (`git clone https://github.com/ISSAE/architect.git`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-   4.1. Si votre projet n'est pas un theme ajouter un fichier [Gemfile](https://github.com/ISSAE/NFP121/blob/master/Gemfile) qui resemble à celui ci [https://github.com/ISSAE/NFP121/blob/master/Gemfile](https://github.com/ISSAE/NFP121/blob/master/Gemfile)
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+### Connexion au Cloud Bigtable :
+Connectez-vous à Cloud Bigtable à l'aide de la classe BigtableConfiguration.
+```markdown
+// Create the Bigtable connection, use try-with-resources to make sure it gets closed
+try (Connection connection = BigtableConfiguration.connect(projectId, instanceId)) {
 
-### Support or Contact
+  // The admin API lets us create, manage and delete tables
+  Admin admin = connection.getAdmin();
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Créer une table :
