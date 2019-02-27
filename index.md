@@ -2,12 +2,15 @@
 titre: Google Cloud Big table et API JAVA 
 description: Tutoriel pour les débutants sur google big table
 ---
-## Welcome to ISSAE GitHub Pages
+## Tutoriel de Google Cloud Big table
 
-You can use the [editor on GitHub](https://github.com/ISSAE/ISSAE.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+BigTable est un système de gestion de base de données compressées, haute performance, propriétaire, développé et exploité par [Google](https://www.google.com).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+C'est une base de données orientée colonnes, dont se sont inspirés plusieurs projets libres, comme HBase, Cassandra ou Hypertable.
 
+Chez Google, BigTable est stockée sur le système de fichiers distribué GoogleFS.
+
+Google ne distribue pas sa base de données mais propose une utilisation publique de BigTable via sa plateforme d'application Google App Engine.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
