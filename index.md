@@ -133,3 +133,44 @@ for (int i = 0; i < GREETINGS.length; i++) {
   table.put(put);
 }
 ```
+
+### Lire une rangée par sa clé :
+```markdown
+// Get the first greeting by row key
+String rowKey = "greeting0";
+Result getResult = table.get(new Get(Bytes.toBytes(rowKey)));
+String greeting = Bytes.toString(getResult.getValue(COLUMN_FAMILY_NAME, COLUMN_NAME));
+System.out.println("Get a single greeting by row key");
+System.out.printf("\t%s = %s\n", rowKey, greeting);
+```
+
+### Analyser toutes les lignes de la table :
+```markdown
+// Now scan across all rows.
+Scan scan = new Scan();
+
+print("Scan for all greetings:");
+ResultScanner scanner = table.getScanner(scan);
+for (Result row : scanner) {
+  byte[] valueBytes = row.getValue(COLUMN_FAMILY_NAME, COLUMN_NAME);
+  System.out.println('\t' + Bytes.toString(valueBytes));
+}
+```
+
+### Supprimer une table :
+```markdown
+// Clean up by disabling and then deleting the table
+print("Delete the table");
+admin.disableTable(table.getName());
+admin.deleteTable(table.getName());
+```
+
+
+
+
+### Vous pouvez afficher le code complet en github :
+
+[**FULL CODE EN GITHUB **](https://github.com/engHusseinMansour/bigtable-java/blob/master/src/main/java/com/example/cloud/bigtable/helloworld/HelloWorld.java)
+
+
+
