@@ -34,6 +34,16 @@ Tous les APIs :
 
 [![Créer un identifiant](http://img.youtube.com/vi/gUHj7UXUjjw/0.jpg)](http://www.youtube.com/watch?v=gUHj7UXUjjw)
 
+## Activer la facturation pour votre projet :
+
+![Etape 1](https://lh3.googleusercontent.com/CuClptU3uOP7m9w34nHHt4zb8Hk3C11CBosMBZfiQerX4miVasLV31U2r34qLyDfkEmp_y_CU2GX8KYQ5Yv2K9qV-7CWohAVIg1IzL14g8LWp6YLuJ4u60jM-d4vFsN15DVuHB83IXhAU8huqs6qa4dK5rdpGgNYrhfao-b__AsHjgrpgJEe9C_m85bBOiAPTJsKCJEFebPD8T2ZVRt49LjFFtx8Z-WxD8iCNO6XmAsVtcq9n0jl5UKlRUh5UY8K2jdlNDzrgmUf9ASDBEzIiwVSBWWUngGjOwKZcLcI8DgsdbzpiYfPJu7iKvT9EQ83s6aJchIt1UyOyqsevSYrRhtieD4cnG-xN1v7J7uGkQEelJQroBlWfZG2osI3OLMZllU6YlFEipqcU8Ge7vnwwRv65De3y2O0YbUU8ZmEP85eHg8W7JkXsu8cUzhIrtibyRqH68fJgnhkP0XsOFa1qj8I0caL-Fvv5fIf-uIux8vzBszWX4Kpx4jYeMMwfgOfGqUMnIHq5WTDslb7kr_VtDnG2g8NHhtGJOGMr4P4lEtfXJZ_6pDV_G-9eBXVJfBctfd6TALx-S9mJUy8ErFCoA2aiwRuSAQkdtKa0w-CYYa2vi27i9SERgrVlOjXJTpFvmdv-TzF52yug54WM3-CH8MjnxA87oJkLjzUL_kUinFjCZE995nb9SyAhF8KbDZFbS0E0LSwcGRe6WWkcC1rUDo=w1440-h818-no)
+
+![Etape 2](https://lh3.googleusercontent.com/2Z8J_WlWnrXvmzmiXQcydmIY4Y5dgfZieNgJ3RdTdPlJUvrcnG1_LStmAaEZ71NkuE5LA6Nt5hZwyxHOcsZk18Y8vOhxNzSQUXkEM4xlf-Sc7BSOVr1c0bPJkR3DIFrDXYori1civQb38OFJnonQYW-LR7u1s_XaVoqWPkkdkkjuV5YyTigUfqcevXAse9roVDmNJ7iQi28GqHv0IJUOs2GhHf5kYoY6fo6GNrW5YwXErHsuHYowQOCQ6XB4wzZdOjdlyEN8s20DtDPA0dg4M0MI-4CZGVFK4UgfXJuPjX0yTQ79AyXs5FLQ3QUVsIt1FMmC8ptpuIzZbDn-FS_CaZsqJC3HzKNlnHc84xP044NKHsUzVrGJFRCCaSWfeXpQEaFwqXk0ba4pf1vNSHHG9Lp143OLSVuOpKzh3AOsC4MgjWfbDK1QvgZjGQjGmxtqgck9YHvQlqfPaC8ANnge5nkpecGrDeB6Ik-W0TmkRIyx-X4D-6nO4WdYL_mfHZCcgDRxbOXcMNSnMQ8c_QVQG2PRmqx7LwskWjeXOtVJAEnd-eDDLwEXfvbWjGW3vT2eLBGZRQN-Pgs4n28w4vhmozMAr6V62l9-jDVJWX0jLZZQqtFLdOEe4mmTwN_gNPjoMvcvvPT2xpC_igNFT1rJN50SJTww1J_pe-FdYzSAdHNZlLHg7K8y-xO8v0VVUcF0ahWZPXtu6IpCCvAr7u19zVc=w1440-h820-no)
+
+## Créer une instance :
+[Voir la documentation](https://cloud.google.com/bigtable/docs/creating-instance)
+ 
+![New Instance](https://cloud.google.com/bigtable/img/create-instance.png)
 
 ## Démarrage rapide :
 
@@ -41,6 +51,9 @@ Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches admini
 1. **Commande cbt :** est une interface de ligne de commande permettant d'effectuer différentes opérations sur Cloud Bigtable. Il est écrit en Go à l'aide de la bibliothèque cliente Go pour Cloud Bigtable, pour plus des informations [commande cbt](https://cloud.google.com/bigtable/docs/cbt-overview?hl=fr)
 2. **Système HBase :** est un système de gestion de base de données non-relationnelles distribué, écrit en Java, disposant d'un stockage structuré pour les grandes tables, pour plus des informations [Système HBase](https://hbase.apache.org/).
 
+
+## Exemple de JAVA API :
+Nous allons utiliser HBase pour appliquer un exemple **API HBase pour Java "Hello World" Application**
 
 ```markdown
 Syntax highlighted code block
