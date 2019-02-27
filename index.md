@@ -24,6 +24,10 @@ Créer un nouveau projet:
 Activer les API :
 
 [![Créer un nouveau projet](http://img.youtube.com/vi/TyGEHFj6h9c/0.jpg)](http://www.youtube.com/watch?v=TyGEHFj6h9c)
+
+Tous les APIs :
+![APIs](https://lh3.googleusercontent.com/tP4PVh2R14ObkFZ9Md_m3p4Bp0vqBn_yONq6lqVckCaCMxbq4gh97sL8EODUs_wNj067BxZcucQdn-IJ6pB09LB3cD4LcX6NgSAzSy9Zcr0GwXqOxtm3LoX94C4HWmfgwmOs65of=w1080-h477-no)
+
 ## Démarrage rapide :
 
 Pour vous connecter à une instance Cloud Bigtable, effectuer des tâches administratives basiques, et lire et écrire des données dans une table, On a deux options :
