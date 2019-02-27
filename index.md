@@ -18,11 +18,11 @@ Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent a
     2. Activer les API Cloud Bigtable et Cloud Bigtable Admin.
     3. Créer un identifiant pour accéder à vos API activées.
 
-**Créer un nouveau projet:**
+**Créer un nouveau projet:** _(Youtube Video)_
 
 [![Créer un nouveau projet](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
 
-**Activer les API :**
+**Activer les API :** _(Youtube Video)_
 
 [![Créer un nouveau projet](http://img.youtube.com/vi/TyGEHFj6h9c/0.jpg)](http://www.youtube.com/watch?v=TyGEHFj6h9c)
 
@@ -30,7 +30,7 @@ Tous les APIs :
 
 ![APIs](https://lh3.googleusercontent.com/tP4PVh2R14ObkFZ9Md_m3p4Bp0vqBn_yONq6lqVckCaCMxbq4gh97sL8EODUs_wNj067BxZcucQdn-IJ6pB09LB3cD4LcX6NgSAzSy9Zcr0GwXqOxtm3LoX94C4HWmfgwmOs65of=w1080-h477-no)
 
-**Créer un identifiant :**
+**Créer un identifiant :** _(Youtube Video)_
 
 [![Créer un identifiant](http://img.youtube.com/vi/gUHj7UXUjjw/0.jpg)](http://www.youtube.com/watch?v=gUHj7UXUjjw)
 
@@ -108,3 +108,28 @@ try (Connection connection = BigtableConfiguration.connect(projectId, instanceId
 ```
 
 ### Créer une table :
+```markdown
+// Create a table with a single column family
+HTableDescriptor descriptor = new HTableDescriptor(TableName.valueOf(TABLE_NAME));
+descriptor.addFamily(new HColumnDescriptor(COLUMN_FAMILY_NAME));
+
+print("Create table " + descriptor.getNameAsString());
+admin.createTable(descriptor);
+```
+
+### Écrire des lignes dans une table :
+```markdown
+// Retrieve the table we just created so we can do some reads and writes
+Table table = connection.getTable(TableName.valueOf(TABLE_NAME));
+
+// Write some rows to the table
+print("Write some greetings to the table");
+for (int i = 0; i < GREETINGS.length; i++) {
+  String rowKey = "greeting" + i;
+
+  // Put a single row into the table. We could also pass a list of Puts to write a batch.
+  Put put = new Put(Bytes.toBytes(rowKey));
+  put.addColumn(COLUMN_FAMILY_NAME, COLUMN_NAME, Bytes.toBytes(GREETINGS[i]));
+  table.put(put);
+}
+```
