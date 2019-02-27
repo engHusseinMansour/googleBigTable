@@ -20,8 +20,11 @@ Ce didacticiel s'adresse à tous les professionnels du logiciel qui souhaitent a
     4. Activer les API Cloud Bigtable et Cloud Bigtable Admin (Voir le video)
 
 Créer un nouveau projet:
+
 [![Créer un nouveau projet](http://img.youtube.com/vi/aJSMdPDHg7w/0.jpg)](http://www.youtube.com/watch?v=aJSMdPDHg7w)
+
 Activer les API :
+
 [![Créer un nouveau projet](http://img.youtube.com/vi/TyGEHFj6h9c/0.jpg)](http://www.youtube.com/watch?v=TyGEHFj6h9c)
 ## Démarrage rapide :
 
